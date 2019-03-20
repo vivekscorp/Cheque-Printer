@@ -414,7 +414,7 @@ Partial Class Form1
         Me.company.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.company.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.company.FormattingEnabled = True
-        Me.company.Items.AddRange(New Object() {"King's Security and Safety Management Pte Ltd", "Stamford Security Management Pte Ltd"})
+        Me.company.Items.AddRange(New Object() {"Company 1", "Company 2"})
         Me.company.Location = New System.Drawing.Point(3, 184)
         Me.company.Name = "company"
         Me.company.RightToLeft = System.Windows.Forms.RightToLeft.No

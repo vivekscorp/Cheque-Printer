@@ -141,7 +141,7 @@ Partial Class Form2
         Me.company_cb.BackColor = System.Drawing.SystemColors.Highlight
         Me.company_cb.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.company_cb.FormattingEnabled = True
-        Me.company_cb.Items.AddRange(New Object() {"ALL", "King's Security and Safety Management Pte Ltd", "Stamford Security Management Pte Ltd"})
+        Me.company_cb.Items.AddRange(New Object() {"ALL", "Company 1", "Company 2"})
         Me.company_cb.Location = New System.Drawing.Point(485, 17)
         Me.company_cb.Name = "company_cb"
         Me.company_cb.Size = New System.Drawing.Size(261, 24)
