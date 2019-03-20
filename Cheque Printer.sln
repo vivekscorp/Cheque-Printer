@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.28705.295
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Cheque Printer", "Cheque Printer\Cheque Printer.vbproj", "{9C796406-8CEB-4FD4-975A-EE7E3FEEACD2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Additional Files", "Additional Files", "{CA2388FA-FF74-4170-B854-B934AA622788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLs", "DLLs", "{23405F19-7466-4A8A-AECF-B54D0BCD238A}"
+	ProjectSection(SolutionItems) = preProject
+		Cheque Printer\bin\x86\Debug\itextsharp.dll = Cheque Printer\bin\x86\Debug\itextsharp.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +37,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23405F19-7466-4A8A-AECF-B54D0BCD238A} = {CA2388FA-FF74-4170-B854-B934AA622788}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43460045-C9BB-4DA0-B994-CB0BFE9FCA4E}
